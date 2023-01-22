@@ -672,18 +672,7 @@ if coll_test == '1':
 else:
     print("Collisions detected - repeat\n")
 
-
-
 #plot circuit
 plot_circuit(circuit,plot_scale,f"Plots/Circuit_m{m}_n{n}_debug{debug}",plot) 
 
 
-
-""" 
-TO DO:
-
-1. Can you store state of record and recall it later? -> maybe precompute for different values of n,m?
-
-
-(collapse all functions: ctrl + k, ctrl + 0)
- """
